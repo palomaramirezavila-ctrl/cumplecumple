@@ -349,6 +349,31 @@ export default function App() {
         </div>
       </div>
 
+      {/* 04. PANEL DE FOTO NUEVO */}
+      <div className="panel-box">
+        <div className="panel-title">
+          <span>04. // ARCHIVO VISUAL [IMAGEN]</span>
+          <span>SYSTEM // RECO</span>
+        </div>
+        
+        <div style={{ textAlign: 'center', padding: '10px' }}>
+          <img 
+            src="https://imgur.com/a/W4POub0"
+            alt="Foto de cumpleaños" 
+            style={{ 
+              width: '100%', 
+              maxHeight: '400px', 
+              objectFit: 'cover', 
+              border: '3px solid #111',
+              boxShadow: '4px 4px 0px #111'
+            }} 
+          />
+          <p style={{ marginTop: '10px', fontSize: '0.9rem', fontStyle: 'italic', color: '#555' }}>
+            "neta tengo un bn de sueño"
+          </p>
+        </div>
+      </div>
+
       <div className="footer-tag">
         TO BE CONTINUED...
       </div>
