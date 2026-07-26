@@ -244,7 +244,7 @@ export default function App() {
       <header className="manga-header">
         <div>
           <span style={{ fontSize: '0.8rem', background: '#000', color: '#fff', padding: '2px 6px' }}>VOL. 01 // CAPÍTULO ÚNICO</span>
-          <h1 className="manga-main-title">Que noche ya me quiero dormir</h1>
+          <h1 className="manga-main-title">HBD!!</h1>
         </div>
         <div className="sfx-top">ドsドsドs!</div>
       </header>
@@ -358,8 +358,8 @@ export default function App() {
         
         <div style={{ textAlign: 'center', padding: '10px' }}>
           <img 
-            src="https://imgur.com/a/W4POub0"
-            alt="noseqsea"
+            src="https://i.pinimg.com/736x/15/b1/43/15b143365bd7532224c332224a82c6d8.jpg"
+            alt="Foto de cumpleaños"
             style={{ 
               width: '100%', 
               maxHeight: '400px', 
@@ -369,7 +369,7 @@ export default function App() {
             }} 
           />
           <p style={{ marginTop: '10px', fontSize: '0.9rem', fontStyle: 'italic', color: '#555' }}>
-            "neta tengo un bn de sueño"
+            "Sigue siendo la JD de mi supertrucha."
           </p>
         </div>
       </div>
