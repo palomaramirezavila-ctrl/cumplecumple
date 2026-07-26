@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import cancion from './assets/lilpeep.mp3'; // <-- Agrega esta línea
+import cancion from './assets/lilpeep.mp3';
 
 export default function App() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -217,11 +217,12 @@ export default function App() {
         }
       `}</style>
 
-{isPlaying && (
+      {isPlaying && (
         <audio 
-          src={`${import.meta.env.BASE_URL}lilpeep.mp3`}
+          src={cancion} 
           autoPlay 
           loop 
+          controls
         />
       )}
 
@@ -243,7 +244,7 @@ export default function App() {
       <header className="manga-header">
         <div>
           <span style={{ fontSize: '0.8rem', background: '#000', color: '#fff', padding: '2px 6px' }}>VOL. 01 // CAPÍTULO ÚNICO</span>
-          <h1 className="manga-main-title">Que noche ya me quiero dormir </h1>
+          <h1 className="manga-main-title">Que noche ya me quiero dormir</h1>
         </div>
         <div className="sfx-top">ドsドsドs!</div>
       </header>
@@ -264,14 +265,14 @@ export default function App() {
           </p>
           <p>
             hola tonta, feliz pumpe, que te la pases de lo mas lindo, creo q no hace falta decirlo
-             pq ya lo sabes pero eres una de mis amistades mas especiales en mi vida, 
-             y te amo mucho aunq no se puede decir por ser dia especial lo digo JAJAJ, espero que 
-             nunca sientas que estas sola o que te sientas una molestia porque siempre estare para ti, 
-             no importa lo que pase. 
+            pq ya lo sabes pero eres una de mis amistades mas especiales en mi vida, 
+            y te amo mucho aunq no se puede decir por ser dia especial lo digo JAJAJ, espero que 
+            nunca sientas que estas sola o que te sientas una molestia porque siempre estare para ti, 
+            no importa lo que pase. 
              
-             Ojala en 70 años podamos acordarnos de esto y como el miti aunq fue un lugar horrible
-             me dio el mejor regalo q es tu amistad yasabes, y antes q esto se ponga mas cursi feliz legalidad,
-             te amo.
+            Ojala en 70 años podamos acordarnos de esto y como el miti aunq fue un lugar horrible
+            me dio el mejor regalo q es tu amistad yasabes, y antes q esto se ponga mas cursi feliz legalidad,
+            te amo.
           </p>
           {!openedLetter && (
             <div style={{ position: 'absolute', top: '40%', left: '30%', background: '#000', color: '#fff', padding: '8px 15px', fontWeight: 'bold', border: '2px solid #fff' }}>
