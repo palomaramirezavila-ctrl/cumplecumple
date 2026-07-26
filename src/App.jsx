@@ -352,14 +352,14 @@ export default function App() {
       {/* 04. PANEL DE FOTO NUEVO */}
       <div className="panel-box">
         <div className="panel-title">
-          <span>04. // ARCHIVO VISUAL [IMAGEN]</span>
+          <span> // 26/07 //</span>
           <span>SYSTEM // RECO</span>
         </div>
         
         <div style={{ textAlign: 'center', padding: '10px' }}>
           <img 
             src="https://imgur.com/a/W4POub0"
-            alt="Foto de cumpleaños" 
+            alt="noseqsea"
             style={{ 
               width: '100%', 
               maxHeight: '400px', 
