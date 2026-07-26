@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import cancion from './assets/lilpeep.mp3'; // <-- Agrega esta línea
 
 export default function App() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -218,10 +219,9 @@ export default function App() {
 
      {isPlaying && (
         <audio 
-          src="/lilpeep.mp3" 
+          src={cancion} 
           autoPlay 
           loop 
-          controls={false}
         />
       )}
 
