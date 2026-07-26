@@ -217,9 +217,9 @@ export default function App() {
         }
       `}</style>
 
-     {isPlaying && (
+{isPlaying && (
         <audio 
-          src={cancion} 
+          src={`${import.meta.env.BASE_URL}lilpeep.mp3`}
           autoPlay 
           loop 
         />
